@@ -1,0 +1,313 @@
+:root{
+  --PraymaryFont:'Handlee', cursive;
+  --secendaryFont: 'Montserrat', sans-serif;
+  --ThirdFont: 'Roboto', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{ font-family: var(--secendaryFont);
+
+}
+h1 h2 h3 h4 h5 h6{font-family: var(--ThirdFont);
+
+}
+
+.dotted-hr{border: dotted 6px white;
+  border-bottom: none;
+  margin: 20px auto;
+  width: 50px;
+
+}
+.section-title h3{
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+/* header start hare */
+header{
+  background-image: url(images/pexels-max-fischer-5211446.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.logo-design{
+  width: 60px;
+  height: auto;
+}
+.banner_container{
+  height: 100vh;
+}
+.navbar{
+  padding: 1% 10%;
+  background-color:rgba(0,0,0,0.3);
+  position: static;
+}
+.navbar-icon{
+  color:white;
+  
+}
+.nav-link{
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.nav-link:hover{
+  background: #2980b9;
+  color: white;
+  transform: scale(1.1);
+}
+
+.banner_container h1{
+  font-size: 3.2rem;
+  background-color: rgba(7,101,189,0.8);
+  padding: 10px 10px;
+  font-family: var(--PraymaryFont);
+}
+
+
+/* header ends hare */
+
+/* features start hare */
+#features{
+  padding: 5% 10%;
+  background-color: #e8ded2 ;
+}
+
+.features-column{
+  border: 1px solid #ff02c0;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  transition: .4s;
+}
+.features-column:hover{
+ transform: scale(1.1);
+ box-shadow: 2px 6px 5px black;
+}
+
+.icon-style{
+  background: #bb0aac;
+  color: white;
+  padding: 15px;
+  margin: 5px 0;
+}
+
+/* features ends hare */
+
+/* about me start hare */
+#about-me{
+  padding: 4% 10%;
+  background: #e8ded2;
+}
+
+#about-me p{
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+#about-me a{
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: black;
+}
+/* skill section start hare */
+
+.skill-container{padding-right: 45px;
+}
+
+
+.skill-container li{ list-style: none;
+                     font-weight: bold;
+                     margin: 30px 10px;
+                     position: relative;
+                     text-transform: uppercase;
+
+}
+.skill-container li::before{
+  content: '';
+  position: absolute;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 15px;
+  top: calc(100% + 5px );
+  left: 0;
+  border-radius: 10px;
+}
+
+.skill-container li::after{
+  content: '';
+  position: absolute;
+  background-color:#0c6168;
+  width:0;
+  height: 15px;
+  top: calc(100% + 5px );
+  left: 0;
+  border-radius: 10px;
+
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 3;
+}
+.skill-container li.html::after{
+  animation-name: html;
+}
+@keyframes html{
+  to{
+    width: 90%;
+  }
+}
+
+.skill-container li.css::after{
+  animation-name: css;
+}
+@keyframes css{
+  to{
+    width: 80%;
+  }
+}
+
+.skill-container li.bs::after{
+  animation-name: bs;
+}
+@keyframes bs{
+  to{
+    width: 60%;
+  }
+}
+
+.skill-container li.tc::after{
+  animation-name: tc;
+}
+@keyframes tc{
+  to{
+    width: 50%;
+  }
+}
+
+.skill-container li.js::after{
+  animation-name: js;
+}
+@keyframes js{
+  to{
+    width: 90%;
+  }
+}
+
+.skill-container li.re::after{
+  animation-name: re;
+}
+@keyframes re{
+  to{
+    width: 80%;
+  }
+}
+
+.skill-container li.no::after{
+  animation-name: no;
+}
+@keyframes no{
+  to{
+    width: 60%;
+  }
+}
+
+.skill-container li.es::after{
+  animation-name: es;
+}
+@keyframes es{
+  to{
+    width: 80%;
+  }
+}
+
+.skill-container li.mo::after{
+  animation-name: mo;
+}
+@keyframes mo{
+  to{
+    width: 40%;
+  }
+}
+.rounded-circle{
+  width: 60px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+/* about me ends hare */
+
+/* <!-- Toutorials section start hare --> */
+#tutorials{
+  background-color: #61A3BA;
+  padding: 4% 10%;
+}
+.card{ transition: .4s;
+  border: 1px solid #ff02c0;
+
+}
+.card:hover{
+  transform: scale(1.1);
+ box-shadow: 2px 6px 5px black;
+ 
+}
+
+
+/* <!-- Toutorials section ends hare --> */
+
+/* Feedback start hare */
+#feedback{
+  background: #86A789;
+  padding: 4% 10%;
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: black;
+
+}
+
+
+/* Feedback ends hare */
+
+/* contact section start hare */
+#contact{
+  background: #7C93C3;
+  padding: 4% 10%;
+}
+.form-group label{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+
+/* contact section start hare */
+/* footer section start hare */
+#footer{
+  background:#190482;
+  padding: 4% 10%;
+ 
+}
+footer a{
+  color: white;
+  margin: 0 10px;
+ 
+}
+footer a:hover{
+  color: black;
+}
+/* footer section start hare */

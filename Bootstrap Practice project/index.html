@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap5 Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+      <!-- google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+   <!-- font awasome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars navbar-icon"></i></span>
+          </button>
+
+          <a class="navbar-brand" href="#">
+            <img class="logo-design"  src="images/pngtree-school-logo-png-image_3977360.png" alt="logo">
+          </a> 
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-center text-md-start" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-center text-md-start" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-center text-md-start" href="#">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-center text-md-start" href="#feedback">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-center text-md-start" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section id="banner">
+        <div class="banner_container d-flex justify-content-center align-items-center">
+          <div class="banner_contents text-center">
+            <h1 class="fw-bolder text-white mb-5">Learn Something New!!!</h1>
+            <button class="btn btn-lg btn-primary me-3" onclick="location.href='#skill' " >
+              <i class="fa-solid fa-code me-2"></i>
+              My skill</button>
+            <button class="btn  btn-lg btn-primary me-3" onclick="window.open('https://www.youtube.com/@rayhanrafi5180')" class="request-callback" >
+              <i class="fa-brands fa-youtube me-2"></i>subscribe</button>
+
+          </div>
+        </div>
+      </section>
+
+
+
+    </header>
+    <main>
+      <section id="features" class="text-center">
+        <div class="row">
+          <div class="col-lg-4 d-block d-lg-flex">
+            <div class="features-column">
+              <i class="fa-solid fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
+              <h5 class="fw-bold">Free to Use</h5>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eligendi porro impedit temporibus, enim assumenda?</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4  d-block d-lg-flex">
+            <div class="features-column">
+              <i class="fa-solid fa-graduation-cap fa-3x rounded-circle icon-style"></i>
+              <h5 class="fw-bold">Easy to Learn</h5>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eligendi porro impedit temporibus, enim assumenda?</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4  d-block d-lg-flex">
+            <div class="features-column">
+              <i class="fa-regular fa-comment-dots fa-3x rounded-circle icon-style"></i>
+              <h5 class="fw-bold">Fast Response</h5>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eligendi porro impedit temporibus, enim assumenda?</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- About me start hare -->
+      <section id="about-me">
+        <div class="section-title">
+          <h3 class="text-center">About Me</h3>
+          <hr class="dotted-hr" style="border-color: black;">
+        </div>
+
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-lg-5">
+            <div class="desc text-center text-lg-left">
+              <i class="fa-solid fa-user fa-2x rounded-circle icon-style"></i>
+              <h5 class="fw-bolder">Parsonal Info</h5>
+              <p>Name: Mohammad Rayhan</p>
+             <p>Address: Dhaka,Bangladesh</p>
+             <p>Email: <a href="mailto:rafirayhan260@gmail.com">rafirayhan260@gmail.com</a></p>
+             <p> Phone: <a href="tel:+8801723408269">+8801723408269</a></p>
+          
+            <a href="CV.pdf" target="_blank">
+             <button class="btn btn-primary mt-2">DOWNLOD CV</button>
+            </a>
+          
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-lg-7"></div>
+          <div class="col-lg-5">
+            <div class="desc text-center text-lg-left">
+              <i class="fa-solid fa-trophy fa-2x rounded-circle icon-style"></i>
+              <h5 class="fw-bolder">Achievement</h5>
+              <p>Name: Mohammad Rayhan</p>
+             <p>Address: Dhaka,Bangladesh</p>
+             <p>Email: <a href="mailto:rafirayhan260@gmail.com">rafirayhan260@gmail.com</a></p>
+             <p> Phone: <a href="tel:+8801723408269">+8801723408269</a></p>
+             <button class="btn btn-primary">Hire Me</button>
+          </div>
+
+        </div>
+
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-lg-5">
+            <div class="desc text-center text-lg-left">
+              <i class="fa-solid fa-graduation-cap fa-2x rounded-circle icon-style"></i>
+              <h5 class="fw-bolder">Education</h5>
+              <ol>
+                <li><strong>Ipsum clita ipsum dolor nonumy.</strong></li>
+                <P> Aliquyam rebum nonumy dolor sit consetetur ipsum consetetur, amet dolores est et ipsum, sed no gubergren sit et lorem dolore et, sit sit rebum dolor ea ipsum ut est nonumy.</P>
+                
+                <li><strong>Ipsum clita ipsum dolor nonumy.</strong></li>
+                <P> Aliquyam rebum nonumy dolor sit consetetur ipsum consetetur, amet dolores est et ipsum, sed no gubergren sit et lorem dolore et, sit sit rebum dolor ea ipsum ut est nonumy.</P>
+
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-lg-7"></div>
+          <div class="col-lg-5">
+            <div class="desc text-center text-lg-left">
+              <i class="fa-solid fa-trophy fa-2x rounded-circle icon-style"></i>
+              <h5 class="fw-bolder">Achievement</h5>
+              <ol>
+                <li><strong>Ipsum clita ipsum dolor nonumy.</strong></li>
+                <P> Aliquyam rebum nonumy dolor sit consetetur ipsum consetetur, amet dolores est et ipsum, sed no gubergren sit et lorem dolore et, sit sit rebum dolor ea ipsum ut est nonumy.</P>
+                
+                <li><strong>Ipsum clita ipsum dolor nonumy.</strong></li>
+                <P> Aliquyam rebum nonumy dolor sit consetetur ipsum consetetur, amet dolores est et ipsum, sed no gubergren sit et lorem dolore et, sit sit rebum dolor ea ipsum ut est nonumy.</P>               
+
+              </ol>
+          </div>
+
+        </div>
+        <div class="row"> 
+        <div class="skills col-lg-7">
+          <div class="card">
+            <div class="card-icon">
+              <img class="rounded-circle" src="images/skill.icon.png" alt="workicon">
+
+            </div>
+            <div class="card-title">
+              <h2 class="text-center">skills</h2>
+            </div>
+            <div class="card-desc">
+              <div class="skill-container">
+                <ul>
+                  <li class="html">HTML</li>
+                  <li class="css">CSS</li>
+                  <li class="bs">Bootstap</li>
+                  <li class="tc">Tailwincss</li>
+                  <li class="js">JavaScript</li>
+                  <li class="re">Recat</li>
+                  <li  class="no">Nodejs</li>
+                  <li class="es">Expressjs</li>
+                  <li class="mo">MongoDB</li>
+                </ul>
+
+
+              </div>
+
+
+            </div>
+
+         </div>
+
+        </div>
+      </div>
+    </section>
+
+      <!-- Toutorials section start hare -->
+
+      <section id="tutorials">
+        <div class="section-title">
+          <h3 class="text-center mb-5">tutorials</h3>
+          <hr class="dotted-hr" style="border-color: black;">
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top" src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center"> Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center">Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center">Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+
+
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center">Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center">Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center">Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5" >
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center">Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center">Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img src="images/r logo.jpg">
+              <div class="card-title">
+                <h3 class="mt-3 text-center">Web Development</h3>
+                <a href="#" class="stretched-link"></a>
+
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quibusdam quas facere reprehenderit est, fugiat quis dolor ab qui inventore?</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      
+
+        
+
+      </section>
+
+      <!-- Toutorials section ends hare -->
+      <!-- Feedback section start hare -->
+
+      
+        <section id="feedback"> 
+          <div class="section-title">
+            <h3 class="text-bg-success m-3 text-center">Feedback</h3>
+            <hr class="dotted-hr">
+       
+      
+      <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos debitis sint quam doloribus nam voluptates reiciendis in adipisci voluptas deleniti eos optio veniam obcaecati, hic quia officiis harum corrupti?.</p>
+       <img class="rounded-circle w-25 mb-2 m-auto" src="images/WhatsApp Image 2023-11-07 at 15.22.56_7865d3f8.jpg" alt="mypic">
+       <h6>Mohammad Rayhan</h6>
+    </div>
+    <div class="carousel-item">
+
+      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, doloribus ex ipsam corrupti quos a.Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aperiam odio animi minima harum unde!</p>
+
+      <img class="rounded-circle w-25 mb-2 m-auto" src="images/rayhanpic.jpeg" alt="Chicago">
+      <h6 class="text-center">Mohammad Rayhan</h6>
+    </div>
+    <div class="carousel-item">
+
+      <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo ipsa autem nisi vitae placeat dolorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt a, deleniti voluptatem impedit eius reprehenderit?</P>
+
+      <img class="rounded-circle w-25 mb-2 m-auto" src="images/DSC_9418.JPG" alt="New York">
+      <h6 class="text-center">Mohammad Rayhan</h6>
+
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</section>
+
+
+
+
+
+
+      <!-- Feedback section ends hare -->
+
+      <!-- contact section start hare -->
+      <section id="contact">
+        <div class="section-title">
+          <h3 class="text-center">Contect Me</h3>
+          <hr class="dotted-hr">
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="mailto:rafirayhan260@gmail.com" method="post" enctype="text/plain" class="was-validated">
+              <div class="form-group mb-1">
+                <label for="Fname">Fullname</label><br>
+                <input type="text" class="form-control" name="fname" required>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback" style="color: white;">Enter Your Fullname before submitting Form</div>
+              </div>
+
+              <div class="form-group mb-1">
+                <label for="Email">Email</label><br>
+                <input type="email" class="form-control" name="email" required>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback" style="color:green;">Enter Your Email before submitting Form</div>
+
+
+              </div>
+
+              <div class="form-group mb-1">
+                <label for="text">Massage</label><br>
+                <textarea name="massage" id="" class="form-control" cols="30" rows="10" style="resize: none"></textarea>
+
+              </div>
+
+              <div class="form-group mb-1 text-center mt-3">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+              <button type="reset" class="btn btn-primary btn-lg">Clear</button>
+              </div>
+          
+          
+
+          
+            </form>
+        </div>
+        </div>
+      </section>
+
+
+
+
+       
+      
+
+
+
+      
+      <!-- contact section ends hare -->
+    </main>
+    <footer>
+      <section id="footer">
+        <div class="row text-white">
+          <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+            <p class="small mb-0 mt-3 text-center"> &copy; Mohammad Rayhan 2023</p>
+
+          </div>
+          <div class="col-lg-6 text-center text-lg-start p-2">
+            <a href="#Home" class="p-2">Home</a>
+            <a href="#"><i class="fa-brands fa-facebook p-2"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube p-2"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram p-2"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin p-2"></i></a>
+            
+
+          </div>
+
+        </div>
+      </section>
+
+    </footer>
+
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

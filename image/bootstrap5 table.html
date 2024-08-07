@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+  <table class="table table-striped table-bordered table-hover">
+    <h1>Student information</h1>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Roll</th>
+        <th>GPA</th>
+      </tr>
+     
+
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rayhan</td>
+        <td>12</td>
+        <td>101</td>
+        <td>4.00</td>
+      </tr>
+      <tr>
+        <td>Rahim</td>
+        <td>12</td>
+        <td>102</td>
+        <td>4.50</td>
+      </tr>
+      <tr>
+        <td>Rafi</td>
+        <td>12</td>
+        <td>103</td>
+        <td>4.50</td>
+      </tr>
+    
+
+    </tbody>
+
+
+  </table>
+  <h1>Regestation Form</h1>
+  <form class="m-3 bg-secondary">
+
+    <div class="mb-3 form-floating">
+      <label for="Fname" class="form-label">Frist name:</label>
+    <input type="text" class="form-control" name="fname" id="fname">
+    </div>
+
+    <div>
+      <label for="Email" class="form-label">Email:</label>
+    <input type="Email" class="form-control" name="Email" id="Email">
+
+    <div class="form-text">
+      <p >Your email will not share anyone</p>
+    </div>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="gender" id="gender" value="male">
+      <label for="radio">Male</label>
+
+      
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="gender" id="gender" value="Female">
+      <label for="radio" class="form-check-label">Female</label>
+    </div>
+    <div>
+      <input type="checkbox" class="form-check-input" id="item">
+      <label for="item"class="form-check-label"  >Accept Trims and Condition</label>
+    </div>
+
+    <div>
+      <label for="Dipartmant">Dipartmant</label>
+      <select name="Dipartmant" class="form-select">
+        <option value="CSE">CSE</option>
+        <option value="EEE">EEE</option>
+        <option value="MIO">IMO</option>
+      </select>
+    </div>
+
+    
+     
+    
+
+    <div>
+      <button class="btn bg-primary">Submit</button>
+    </div>
+
+    
+  </form>
+
+
+
+
+ <script src="/js/bootstrap.bundle.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+</body>
+</html>
